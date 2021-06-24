@@ -70,7 +70,9 @@ During 2018, Symantec found evidence of 67 SamSam attacks, mostly against organi
 ### Question 14
 Even though ransomware attacks declined in 2017-2018, what was one dramatic change that occurred? 
 ### Answer 14
-It was Symantec's increased efficiency of catching the ransomware.
+Up until 2017, consumers were the hardest hit by ransomware, accounting for the majority of infections.
+In 2017, the balance tipped towards enterprises, with the majority of infections occurring in businesses.
+In 2018, that shift accelerated and enterprises accounted for 81 percent of all ransomware infections. While overall ransomware infections were down, enterprise infections were up by 12 percent in 2018.
 
 ### Question 15
 In 2018, what was the primary ransomware distribution method? 
@@ -85,7 +87,8 @@ Eighty-five percent of managed service providers (MSPs) say the Windows OS is ta
 ### Question 17
 What are “living off the land” attacks? What is the advantage to hackers? 
 ### Answer 17
-LotL is a method that allows hackers to take control of your computers and other connected devices. ... The compromise happens once and from thereon, your computer will work for hackers without you knowing because antivirus software cannot detect such attacks
+These are attacks in which hackers use tools that are already installed on the victim’s computers, instead of using other outside tools.
+By using these native tools, hackers can more easily hide their activity amidst the legitimate processes occurring on a victim’s computer. And even if the malicious activity is identified, it is harder to attribute and identify the specific attacks and attackers.
 
 ### Question 18
 What is an example of a tool that’s used in “living off the land” attacks?
@@ -100,7 +103,7 @@ is the loose term for a recently discovered vulnerability or exploit for a vulne
 ### Question 20
 By what percentage did zero-day exploits decline in 2018? 
 ### Answer 20
-4%
+Only 23 percent of attack groups were known to use zero days, down from 27 percent in 2017
 
 ### Question 21
 What are two techniques that worms such as Emotet and Qakbot use?
@@ -135,7 +138,8 @@ They have poor configurations
 ### Question 27
 What is the implication for successful cloud exploitation that provides access to memory locations that are normally forbidden? 
 ### Answer 27
-Hardware chips
+Hardware chips. 
+This is particularly problematic for cloud services because, while cloud instances have their own virtual processors, they share pools of memory. Therefore, a successful attack on a single physical system could result in data being leaked from several cloud instances.
 
 ### Question 28
 What are two examples of the above cloud attack? 
@@ -155,22 +159,23 @@ Mirai is malware that infects smart devices that run on ARC processors, turning 
 ### Question 31
 Why was Mirai the third most common IoT threat in 2018? 
 ### Answer 31
-worm remained an active threat and, with 16 percent of the attacks, was the third most common IoT threat in 2018.
+Mirai is constantly evolving and variants use up to 16 different exploits, persistently adding new exploits to increase the success rate for infection, as devices often remain unpatched. The worm also expanded its target scope by going after unpatched Linux servers.
 
 ### Question 32
 What was unique about VPNFilter with regards to IoT threats?
 ### Answer 32
-maintaining a persistent presence on an infected device, even after a reboot.
+VPNFilter was the first widespread persistent IoT threat, with its ability to survive a reboot making it very difficult to remove. With an array of potent payloads at its disposal, such as man in the middle (MitM) attacks, data exfiltration, credential theft, and interception of SCADA communications, VPNFilter was a departure from traditional IoT threat activity such as DDoS and coin mining. It also includes a destructive capability which can “brick,” or wipe a device at the attackers’ command, should they wish to destroy evidence.
 
 ### Question 33
 What type of attack targeted the Democratic National Committee in 2019? 
 ### Answer 33
- WikiLeaks hacked emails 
+ Spear-fishing attack
 
 ### Question 34
 What were 48% of  malicious email attachments in 2018? 
 ### Answer 34
-malicious spam emails 
+malicious spam emails
+Office files
 
 ### Question 35
 What were the top two malicious email themes in 2018? 
@@ -181,12 +186,12 @@ Bill and email delivery
 What was the top malicious email attachment type in 2018? 
 ### Answer 36
 spam e-mails 
+37% of all attachments were either .doc or .dot files.
 
 ### Question 37
 Which country had the highest email phishing rate? Which country had the lowest email phishing rate?
 ### Answer 37
-Canada has the highest phishing rate
-Saudi arabia has the lowest
+Saudi Arabia had the highest phishing rate and Poland had the lowest
 
 ### Question 38
 What is Emotet and how much did it jump in 2018? 
@@ -217,7 +222,7 @@ Trickbot, Gozi, Ramnit, and IcedID
 ### Question 43
 What was the most common avenue of attack in 2018? 
 ### Answer 43
-Using office macros to call powershel script attack
+Spear-phishing email attacks
 
 ### Question 44
 What is destructive malware? By what percent did these attacks increase in 2018? 
